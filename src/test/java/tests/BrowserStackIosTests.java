@@ -23,8 +23,8 @@ public class BrowserStackIosTests {
         caps.setCapability("app", "bs://444bd0308813ae0dc236f8cd461c02d3afa7901d");
 
         // Specify device and os_version for testing
-        caps.setCapability("device", "iPhone XS");
-        caps.setCapability("os_version", "12");
+        caps.setCapability("device", "iPhone 11 Pro");
+        caps.setCapability("os_version", "13");
 
         // Set other BrowserStack capabilities
         caps.setCapability("project", "First Java Project");
